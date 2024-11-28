@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <header className="bg-gray-800 text-white py-4">
       <nav className="container mx-auto flex justify-between items-center">
-        <h1 className="text-lg font-bold">Mi Proyecto</h1>
+        <h1 className="text-lg font-bold">E-commerce</h1>
         <div className="flex space-x-4 items-center">
           {location.pathname === "/productos" && usuario ? ( // Mostrar solo en /productos
             <>

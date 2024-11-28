@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --fuente-poppins: "Poppins", sans-serif;
+    --fuente-bebas: "Bebas Neue", sans-serif;
+    --fuente-nunito: "Nunito", sans-serif;
+    --fuente-quicksand: "Quicksand", sans-serif;
+}
+
 body{
   margin:0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: antiquewhite;
+  font-family: var(--fuente-quicksand);
+  background-color: #000000;
 }
 
 @import "tailwindcss/base";
