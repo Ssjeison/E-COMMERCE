@@ -38,7 +38,6 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalados los sig
    cd ecommerce
 
 2. Instala las dependencias para el back y front:
-Back  
 npm install express nodemon mongoose dotenv cors bcryptjs express pg
     - bcryptjs
     - cors
@@ -51,6 +50,7 @@ npm install express nodemon mongoose dotenv cors bcryptjs express pg
   
 Front
 npm install axios react-router-dom npm i @material-tailwind/react
+
     - axios
     - npm
     - react
