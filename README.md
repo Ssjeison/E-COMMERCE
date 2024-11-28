@@ -8,7 +8,9 @@ Este es un proyecto de e-commerce desarrollado con el stack MERN (MongoDB, Expre
 
 - **Frontend:** React con diseño responsivo y llamadas a la API.
 - **Backend:** Node.js con Express para crear una API RESTful.
-- **Base de datos:** MongoDB para almacenar usuarios, productos y pedidos.
+- **Base de datos:**
+    - MongoDB para almacenar usuarios, productos y pedidos.
+    - PostreSQL para almacenar usuarios
 - **Autenticación:** Uso de JWT (JSON Web Tokens) para el inicio de sesión seguro.
 - **Funciones principales:**
   - Gestión de usuarios (registro, inicio de sesión).
@@ -36,7 +38,8 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalados los sig
    cd ecommerce
 
 2. Instala las dependencias para el back y front:
-Back
+Back  
+npm install express nodemon mongoose dotenv cors bcryptjs express pg
     - bcryptjs
     - cors
     - dotenv
@@ -47,6 +50,7 @@ Back
     - pg
   
 Front
+npm install axios react-router-dom npm i @material-tailwind/react
     - axios
     - npm
     - react
