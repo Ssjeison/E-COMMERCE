@@ -38,7 +38,7 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalados los sig
    cd ecommerce
 
 2. Instala las dependencias para el back y front:
-   ``` bash
+   ```bash
    npm install express nodemon mongoose dotenv cors bcryptjs express pg
 
 - bcryptjs
@@ -50,7 +50,6 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalados los sig
 - nodemon
 - pg
   
-Front
     ```bash
         npm install axios react-router-dom npm i @material-tailwind/react
 
@@ -61,10 +60,12 @@ Front
 - fortawesome
     
 3. Inicia el servidor en back con el comando
-   ```bash npx nodemon servidor.js
+   ```bash
+   npx nodemon servidor.js
 
 4. Inicia el programa en front con el comando
-   ```bash npm start
+   ```bash
+   npm start
 
 5. Las contribuciones son bienvenidas. Si quieres contribuir, sigue estos pasos:
     
